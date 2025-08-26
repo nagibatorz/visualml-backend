@@ -1,0 +1,157 @@
+Feature: call
+Threshold: 0.03414351851851852
+Feature: txt
+Threshold: 0.016666666666666666
+Feature: uk
+Threshold: 0.017241379310344827
+Feature: text
+Threshold: 0.016666666666666666
+Feature: www
+Threshold: 0.020833333333333332
+Feature: ringtone
+Threshold: 0.027777777777777776
+Feature: cash
+Threshold: 0.021739130434782608
+Feature: service
+Threshold: 0.03333333333333333
+Feature: reply
+Threshold: 0.04173913043478261
+Feature: chat
+Threshold: 0.018518518518518517
+Feature: 2lands
+Threshold: 0.023809523809523808
+Feature: tones
+Threshold: 0.023809523809523808
+ham
+spam
+spam
+Feature: chat
+Threshold: 0.08545454545454545
+Feature: u
+Threshold: 0.05423280423280423
+spam
+ham
+ham
+Feature: win
+Threshold: 0.027777777777777776
+Feature: stop
+Threshold: 0.022727272727272728
+Feature: energy
+Threshold: 0.020833333333333332
+ham
+spam
+spam
+spam
+Feature: cum
+Threshold: 0.038461538461538464
+Feature: listen
+Threshold: 0.03333333333333333
+spam
+ham
+ham
+Feature: cash
+Threshold: 0.15476190476190477
+Feature: got
+Threshold: 0.03125
+spam
+ham
+ham
+spam
+Feature: list
+Threshold: 0.022727272727272728
+spam
+ham
+Feature: text
+Threshold: 0.10555555555555556
+Feature: ll
+Threshold: 0.04583333333333334
+Feature: want
+Threshold: 0.025
+Feature: so
+Threshold: 0.06111111111111111
+Feature: u
+Threshold: 0.09520239880059969
+Feature: abiola
+Threshold: 0.029411764705882353
+Feature: y
+Threshold: 0.021739130434782608
+spam
+ham
+ham
+ham
+ham
+ham
+ham
+Feature: 80488
+Threshold: 0.045454545454545456
+ham
+spam
+Feature: gone
+Threshold: 0.03125
+spam
+ham
+Feature: im
+Threshold: 0.04673913043478261
+Feature: v
+Threshold: 0.019230769230769232
+Feature: txt
+Threshold: 0.17857142857142858
+spam
+ham
+ham
+ham
+Feature: call
+Threshold: 0.1464285714285714
+Feature: so
+Threshold: 0.04880952380952381
+Feature: later
+Threshold: 0.03571428571428571
+Feature: give
+Threshold: 0.021739130434782608
+Feature: u
+Threshold: 0.09761904761904762
+Feature: call
+Threshold: 0.07417582417582418
+Feature: would
+Threshold: 0.02
+Feature: selfish
+Threshold: 0.025
+Feature: march
+Threshold: 0.03333333333333333
+spam
+ham
+ham
+ham
+Feature: have
+Threshold: 0.02631578947368421
+Feature: min
+Threshold: 0.020833333333333332
+Feature: nokia
+Threshold: 0.021739130434782608
+Feature: call
+Threshold: 0.13392857142857142
+Feature: line
+Threshold: 0.020833333333333332
+ham
+spam
+spam
+spam
+spam
+spam
+Feature: 2
+Threshold: 0.07894736842105263
+ham
+spam
+Feature: 4
+Threshold: 0.022727272727272728
+Feature: 150p
+Threshold: 0.029411764705882353
+ham
+spam
+spam
+ham
+ham
+Feature: 0800
+Threshold: 0.08333333333333333
+ham
+spam

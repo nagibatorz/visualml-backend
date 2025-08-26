@@ -1,0 +1,10 @@
+Feature: win
+Threshold: 0.1
+Feature: free
+Threshold: 0.05
+ham
+spam
+Feature: prize
+Threshold: 0.05
+spam
+spam
