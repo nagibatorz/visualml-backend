@@ -1,8 +1,10 @@
-FROM maven:3.8.5-openjdk-21 AS build
+FROM eclipse-temurin:21-jdk AS build
+RUN apt-get update && apt-get install -y maven
+WORKDIR /app
 COPY . .
 RUN mvn clean package -DskipTests
 
-FROM openjdk:21-jdk-slim
-COPY --from=build /target/classifierapi-0.0.1-SNAPSHOT.jar app.jar
+FROM eclipse-temurin:21-jre-alpine
+COPY --from=build /app/target/classifierapi-0.0.1-SNAPSHOT.jar app.jar
 EXPOSE 8080
 ENTRYPOINT ["java","-jar","app.jar"]
