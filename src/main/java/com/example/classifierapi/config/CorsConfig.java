@@ -9,8 +9,9 @@ public class CorsConfig implements WebMvcConfigurer {
     @Override
     public void addCorsMappings(CorsRegistry registry) {
         registry.addMapping("/api/**")
-            .allowedOrigins("*")  // We'll restrict this after getting Vercel URL
-            .allowedMethods("GET", "POST", "OPTIONS")
-            .allowedHeaders("*");
+            .allowedOriginPatterns("https://*.vercel.app")
+            .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
+            .allowedHeaders("*")
+            .allowCredentials(false);
     }
 }
